@@ -15,16 +15,14 @@ This repository contains the accompanying sample code for the blog article title
 ### Build
 
 1. Clone this repository
-2. Create a `.env` file in the root of the repo with the following content:
+2. Create a `.env` file in the root of the repo with the following content. Then replace the placeholder values with your own:
 
 ```sh
 AMPLITUDE_API_KEY="YOUR-AMPLITUDE-API-KEY-GOES-HERE"
 CONFIGCAT_SDK_KEY="YOUR-CONFIGCAT-SDK-KEY-GOES-HERE"
 ```
 
-3. Add your ConfigCat SDK key and your Amplitude API key to it.
-
-4. Install the Gemfile dependencies:
+3. Install the Gemfile dependencies:
 
 ```sh
 bundle install

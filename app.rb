@@ -25,6 +25,6 @@ user_object = ConfigCat::User.new(
 
 get '/' do
   # Create a variable to store the value of the feature flag
-  @is_my_feature_flag_enabled = configcat_client.get_value('myfeatureflag', true, user_object)
+  @is_my_feature_flag_enabled = configcat_client.get_value('myfeatureflag', false, user_object)
   erb :index
 end
