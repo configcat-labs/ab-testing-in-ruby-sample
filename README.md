@@ -1,6 +1,6 @@
 # How to implement an A/B test in Ruby using Feature Flags
 
-#### [Read the blog post here](https://configcat.com/blog/)
+## [Read the blog post here](https://configcat.com/blog/)
 
 This repository contains the accompanying sample code for the blog article titled 'How to Implement an A/B Test in Ruby Using Feature Flags.' The application relies on the Sinatra gem to serve the landing page through the browser. To conduct the A/B test experiment, I've integrated [ConfigCat feature flags](https://configcat.com) for switching between and deploying each version to different user groups. Additionally, I've incorporated the Amplitude data analytics platform to analyze the impact of each version, to select the best one for deployment.
 
